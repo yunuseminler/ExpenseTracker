@@ -23,7 +23,7 @@ struct MainPage: View {
                 }
                 .tag(0)
             
-            Text("sa")
+            Categories()
                 .tabItem {
                     Image(systemName: "archivebox")
                     Text("Category")

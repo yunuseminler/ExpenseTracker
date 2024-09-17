@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct RadiantBack: View {
+    @State var height: CGFloat
     static let color0 = Color(.pink)
 
     static let color1 = Color(.white)
@@ -19,12 +20,12 @@ struct RadiantBack: View {
             .fill(LinearGradient(
                 gradient: gradient,
                 startPoint: .init(x: 0.50, y: 0.00),
-                endPoint: .init(x: 0.50, y: 0.75)
+                endPoint: .init(x: 0.50, y: height)
             ))
             .edgesIgnoringSafeArea(.all)
     }
 }
 
 #Preview {
-    RadiantBack()
+    RadiantBack(height: 0.75)
 }

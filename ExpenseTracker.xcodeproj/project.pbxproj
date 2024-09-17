@@ -14,6 +14,9 @@
 		F9C52C382C9A0029004F7C62 /* RadiantBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C52C372C9A0029004F7C62 /* RadiantBack.swift */; };
 		F9C52C3B2C9A00E1004F7C62 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C52C3A2C9A00E1004F7C62 /* HomePage.swift */; };
 		F9C52C3D2C9A09F3004F7C62 /* ExpenseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C52C3C2C9A09F3004F7C62 /* ExpenseRow.swift */; };
+		F9C52C402C9A0F94004F7C62 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C52C3F2C9A0F94004F7C62 /* Categories.swift */; };
+		F9C52C422C9A1712004F7C62 /* CategoriesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C52C412C9A1712004F7C62 /* CategoriesRow.swift */; };
+		F9C52C442C9A1C74004F7C62 /* ColorHexExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C52C432C9A1C74004F7C62 /* ColorHexExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		F9C52C372C9A0029004F7C62 /* RadiantBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiantBack.swift; sourceTree = "<group>"; };
 		F9C52C3A2C9A00E1004F7C62 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		F9C52C3C2C9A09F3004F7C62 /* ExpenseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseRow.swift; sourceTree = "<group>"; };
+		F9C52C3F2C9A0F94004F7C62 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		F9C52C412C9A1712004F7C62 /* CategoriesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesRow.swift; sourceTree = "<group>"; };
+		F9C52C432C9A1C74004F7C62 /* ColorHexExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHexExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,7 @@
 		F9C52C352C99FF86004F7C62 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F9C52C3E2C9A0F88004F7C62 /* Categories */,
 				F9C52C392C9A00CD004F7C62 /* Home */,
 				F9C52C272C99FCC8004F7C62 /* MainPage.swift */,
 				F9C52C362C99FF8D004F7C62 /* Helper */,
@@ -87,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				F9C52C372C9A0029004F7C62 /* RadiantBack.swift */,
+				F9C52C432C9A1C74004F7C62 /* ColorHexExtension.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -98,6 +106,15 @@
 				F9C52C3C2C9A09F3004F7C62 /* ExpenseRow.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		F9C52C3E2C9A0F88004F7C62 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F9C52C3F2C9A0F94004F7C62 /* Categories.swift */,
+				F9C52C412C9A1712004F7C62 /* CategoriesRow.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,10 +188,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9C52C282C99FCC8004F7C62 /* MainPage.swift in Sources */,
+				F9C52C422C9A1712004F7C62 /* CategoriesRow.swift in Sources */,
 				F9C52C382C9A0029004F7C62 /* RadiantBack.swift in Sources */,
+				F9C52C442C9A1C74004F7C62 /* ColorHexExtension.swift in Sources */,
 				F9C52C3D2C9A09F3004F7C62 /* ExpenseRow.swift in Sources */,
 				F9C52C262C99FCC8004F7C62 /* ExpenseTrackerApp.swift in Sources */,
 				F9C52C3B2C9A00E1004F7C62 /* HomePage.swift in Sources */,
+				F9C52C402C9A0F94004F7C62 /* Categories.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

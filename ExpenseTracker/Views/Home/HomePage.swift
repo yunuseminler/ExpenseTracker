@@ -10,7 +10,7 @@ import SwiftUI
 struct HomePage: View {
     var body: some View {
         ZStack {
-            RadiantBack()
+            RadiantBack(height: 0.55)
             VStack {
                 VStack {
                     Text("Current Balance").font(.title3)
