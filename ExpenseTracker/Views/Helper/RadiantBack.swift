@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct RadiantBack: View {
-    static let color0 = Color(red: 85/255, green: 55/255, blue: 180/255)
+    static let color0 = Color(.pink)
 
-    static let color1 = Color(red: 125/255, green: 77/255, blue: 190/255)
+    static let color1 = Color(.white)
 
     let gradient = Gradient(colors: [color0, color1])
 
@@ -19,7 +19,7 @@ struct RadiantBack: View {
             .fill(LinearGradient(
                 gradient: gradient,
                 startPoint: .init(x: 0.50, y: 0.00),
-                endPoint: .init(x: 0.50, y: 1.00)
+                endPoint: .init(x: 0.50, y: 0.75)
             ))
             .edgesIgnoringSafeArea(.all)
     }

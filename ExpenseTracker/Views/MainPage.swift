@@ -16,7 +16,7 @@ struct MainPage: View {
     
     var body: some View {
         TabView(selection: $tabSelected) {
-            Text("sa1")
+            HomePage()
                 .tabItem {
                     Image(systemName: "house")
                     Text("Home")
@@ -55,5 +55,5 @@ struct MainPage: View {
 }
 
 #Preview {
-    MainPage()
+    MainPage().environment(\.font, Font.custom("Nunito", size: 16))
 }
