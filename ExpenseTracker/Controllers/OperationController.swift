@@ -15,11 +15,12 @@ class OperationController {
     
     private let context = PersistenceController.shared.container.viewContext
     
-    public func createCategory(_ope: Operation) {
+    public func createCategory(value: Double, title: String, date: Date,category: Category) {
         let ope = Operation(context: context)
-        ope.value = _ope.value
-        ope.title = _ope.title
-        ope.date = _ope.date
+        ope.value = value
+        ope.title = title
+        ope.date = date
+        ope.category = category
         
         do {
             try context.save()

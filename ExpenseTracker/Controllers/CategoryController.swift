@@ -15,11 +15,11 @@ class CategoryController {
 
     private let context = PersistenceController.shared.container.viewContext
 
-    public func createCategory(_cat: Category) {
+    public func createCategory(color: String, name: String, icon: String) {
         let cat = Category(context: context)
-        cat.color = _cat.color
-        cat.name = _cat.name
-        cat.icon = _cat.icon
+        cat.color = color
+        cat.name = name
+        cat.icon = icon
 
         do {
             try context.save()
