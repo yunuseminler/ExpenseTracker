@@ -33,13 +33,13 @@ struct HomePage: View {
                     }.padding(20).font(.title2)
                 }.font(.title2).padding()
                 ScrollView {
-                    ExpenseRow()
-                    ExpenseRow()
-                    ExpenseRow()
-                    ExpenseRow()
-                    ExpenseRow()
-                    ExpenseRow()
-                }.padding()
+                    ExpenseRow().padding(.vertical,2)
+                    ExpenseRow().padding(.vertical,2)
+                    ExpenseRow().padding(.vertical,2)
+                    ExpenseRow().padding(.vertical,2)
+                    ExpenseRow().padding(.vertical,2)
+                    ExpenseRow().padding(.vertical,2)
+                }
 
                 Spacer()
             }.foregroundStyle(.white)

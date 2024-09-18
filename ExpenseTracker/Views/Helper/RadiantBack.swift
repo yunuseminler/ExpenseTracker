@@ -10,7 +10,7 @@ import SwiftUI
 struct RadiantBack: View {
     @State var height: CGFloat
     static let color0 = Color(.pink)
-
+    
     static let color1 = Color(.white)
 
     let gradient = Gradient(colors: [color0, color1])

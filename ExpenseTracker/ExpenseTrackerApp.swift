@@ -11,7 +11,7 @@ import SwiftUI
 struct ExpenseTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            MainPage().environment(\.font, Font.custom("Poppins", size: 16))
+            MainPage()
         }
     }
 }

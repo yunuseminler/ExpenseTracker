@@ -17,6 +17,11 @@
 		F9C52C402C9A0F94004F7C62 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C52C3F2C9A0F94004F7C62 /* Categories.swift */; };
 		F9C52C422C9A1712004F7C62 /* CategoriesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C52C412C9A1712004F7C62 /* CategoriesRow.swift */; };
 		F9C52C442C9A1C74004F7C62 /* ColorHexExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C52C432C9A1C74004F7C62 /* ColorHexExtension.swift */; };
+		F9C52C472C9B566C004F7C62 /* ExpenseTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9C52C452C9B566C004F7C62 /* ExpenseTracker.xcdatamodeld */; };
+		F9C52C4A2C9B5894004F7C62 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C52C492C9B5894004F7C62 /* UserController.swift */; };
+		F9C52C4D2C9B58FF004F7C62 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C52C4C2C9B58FF004F7C62 /* PersistenceController.swift */; };
+		F9C52C4F2C9B5A46004F7C62 /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C52C4E2C9B5A46004F7C62 /* CategoryController.swift */; };
+		F9C52C512C9B5AF7004F7C62 /* OperationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C52C502C9B5AF7004F7C62 /* OperationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +36,11 @@
 		F9C52C3F2C9A0F94004F7C62 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		F9C52C412C9A1712004F7C62 /* CategoriesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesRow.swift; sourceTree = "<group>"; };
 		F9C52C432C9A1C74004F7C62 /* ColorHexExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHexExtension.swift; sourceTree = "<group>"; };
+		F9C52C462C9B566C004F7C62 /* ExpenseTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExpenseTracker.xcdatamodel; sourceTree = "<group>"; };
+		F9C52C492C9B5894004F7C62 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		F9C52C4C2C9B58FF004F7C62 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		F9C52C4E2C9B5A46004F7C62 /* CategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
+		F9C52C502C9B5AF7004F7C62 /* OperationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +73,11 @@
 		F9C52C242C99FCC8004F7C62 /* ExpenseTracker */ = {
 			isa = PBXGroup;
 			children = (
+				F9C52C4B2C9B58BD004F7C62 /* Data */,
+				F9C52C482C9B584B004F7C62 /* Controllers */,
 				F9C52C352C99FF86004F7C62 /* Views */,
 				F9C52C252C99FCC8004F7C62 /* ExpenseTrackerApp.swift */,
+				F9C52C452C9B566C004F7C62 /* ExpenseTracker.xcdatamodeld */,
 				F9C52C292C99FCC9004F7C62 /* Assets.xcassets */,
 				F9C52C2B2C99FCC9004F7C62 /* Preview Content */,
 			);
@@ -115,6 +128,24 @@
 				F9C52C412C9A1712004F7C62 /* CategoriesRow.swift */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		F9C52C482C9B584B004F7C62 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F9C52C492C9B5894004F7C62 /* UserController.swift */,
+				F9C52C4E2C9B5A46004F7C62 /* CategoryController.swift */,
+				F9C52C502C9B5AF7004F7C62 /* OperationController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F9C52C4B2C9B58BD004F7C62 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F9C52C4C2C9B58FF004F7C62 /* PersistenceController.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,9 +220,14 @@
 			files = (
 				F9C52C282C99FCC8004F7C62 /* MainPage.swift in Sources */,
 				F9C52C422C9A1712004F7C62 /* CategoriesRow.swift in Sources */,
+				F9C52C4A2C9B5894004F7C62 /* UserController.swift in Sources */,
+				F9C52C512C9B5AF7004F7C62 /* OperationController.swift in Sources */,
 				F9C52C382C9A0029004F7C62 /* RadiantBack.swift in Sources */,
 				F9C52C442C9A1C74004F7C62 /* ColorHexExtension.swift in Sources */,
+				F9C52C4F2C9B5A46004F7C62 /* CategoryController.swift in Sources */,
+				F9C52C472C9B566C004F7C62 /* ExpenseTracker.xcdatamodeld in Sources */,
 				F9C52C3D2C9A09F3004F7C62 /* ExpenseRow.swift in Sources */,
+				F9C52C4D2C9B58FF004F7C62 /* PersistenceController.swift in Sources */,
 				F9C52C262C99FCC8004F7C62 /* ExpenseTrackerApp.swift in Sources */,
 				F9C52C3B2C9A00E1004F7C62 /* HomePage.swift in Sources */,
 				F9C52C402C9A0F94004F7C62 /* Categories.swift in Sources */,
@@ -398,6 +434,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F9C52C452C9B566C004F7C62 /* ExpenseTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F9C52C462C9B566C004F7C62 /* ExpenseTracker.xcdatamodel */,
+			);
+			currentVersion = F9C52C462C9B566C004F7C62 /* ExpenseTracker.xcdatamodel */;
+			path = ExpenseTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F9C52C1A2C99FCC8004F7C62 /* Project object */;
 }
